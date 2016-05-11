@@ -9,8 +9,9 @@ Gem::Specification.new do |s|
   s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib"]
   s.authors = ["Matt Lane", "Chris Busbey", "Mike Gatny"]
-  s.date = "2015-06-29"
+  s.date = "2016-05-11"
   s.description = "Interact with FIX connections to send, receive, and inspect messages in cucumber"
   s.email = "info@connamara.com"
   s.extra_rdoc_files = [
@@ -49,8 +50,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/connamara/agent_fix"
   s.licenses = ["GPL"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = "2.1.9"
+  s.rubygems_version = "2.4.8"
   s.summary = "Agent framework for FIX messages"
 
   if s.respond_to? :specification_version then
